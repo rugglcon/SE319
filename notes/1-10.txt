@@ -1,0 +1,17 @@
+What is software architecture?
+	* it is not pictures
+	* the software architecture of a system is the set of structures
+		needed to reason about the system, which comprise software 
+		elements, relations among them, and properties of both.
+* Many architectural decisions are made early, but not all are.
+* Many decisions are made early that are not architectural.
+* It's hard to look at a decision and tell whether or not it's "major".
+
+Architecture is a set of software structures
+	* a structure is a set of elements held together by a relation
+	* software systems are composed of many structures, and no 
+		single structure holds claim to being the architecture.
+	* there are three important categories of architectural structures.
+		* Module
+		* Component-and-Connector
+		* Allocation
