@@ -13,5 +13,35 @@ Architecture is a set of software structures
 		single structure holds claim to being the architecture.
 	* there are three important categories of architectural structures.
 		* Module
+			* some structures partition systems into implementation units,
+				which we call modules
+			* modules are assigned specific computational responsibilities, 
+				and are the basis of work assignments for programming teams
 		* Component-and-Connector
-		* Allocation
+			* other structures focus on the way the elements interact with 
+				each other at runtime to carry out the system's functions
+			* we call runtime structures component-and-connector structures
+			* in our use, a component is always a runtime entity
+				* suppose the system is to be built as a set of services
+				* the services, the infrastructure they interact with, and the 
+					synchronization and interaction relations among them form 
+					another kind of structure often used to describe a system
+				* these services are made up of the programs in the various 
+					implementation units - modules
+		* Allocation Structures
+			* allocation structures describe the mapping from software 
+				structures to the system's environments
+				* organizational 
+				* developmental
+				* installation 
+				* execution
+	* which structures are architectural? 
+		* a structure is architectural if it supports reasoning about the 
+			system and the system's properties
+		* the reasoning should be about an attribute of the system that 
+			is important to some stakeholder
+		* these include:
+			* functionality achieved by the system
+			* the availability of the system in the face of faults
+			* the difficulty of making specific changes to the system
+			* the responsiveness of the system to user requests
