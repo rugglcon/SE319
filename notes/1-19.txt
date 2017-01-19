@@ -1,0 +1,63 @@
+Overview of Baseline Architecture Design
+
+* Architecturally significant requirements
+	* Design steps
+		1 identify architecture objectives
+		2 identify key scenarios
+		3 create application overview
+		4 identify key issues
+		5 define candidate solutions
+		* back to step 1
+	* what are architecturally significant requirements? 
+		* architectures exist to build systems that satisfy requirements
+		* an architecturally significant requirement (ASR) is a 
+			requirement that drives the architecture
+		* ASR imply a decision on how the components of system must or 
+			should behave
+		* sources of ASR's include:
+			* requirements documents
+			* interviewing stakeholders
+			* understanding business goals
+	* extracting ASRs from requirement doc.
+		* quality attributes in requirement documents are often calls to 
+			dig further - not useful for architects
+		* quality attributes include:
+			* performance
+			* scalability
+			* security
+			* usability
+			* interoperability
+			* maintainability
+		* standard requirements pay more attention to functionality
+	* extracting ASRs using scenarios
+		* scenarios is as a brief description of some anticipated or 
+			desired use of a system
+		* architecture use case is a description of a set of interactions
+			between the system and one or more actors
+		* criteria for key scenarios
+			* represents an issue - a significant unknown area or an area 
+				of significant risk
+			* refers to an architecturally significant use case
+			* represents the intersection of quality attributes with 
+				functionality
+			* represents a trade-off between quality attributes
+		* key scenarios show the major constraints and decisions in 
+			order to frame and start conversations
+	* interviewing stakeholders
+		* interviewing stockholders is the best way to know their needs
+		* architects are often called to participate in the requirement 
+			gathering workshop
+			* opportunity to identify architecture requirements
+		* stakeholders often have no idea what quality attributes they 
+			want in a system
+		* architects often have very good ideas about what QAs are 
+			reasonable
+		* steps:
+			1) presentation and intro
+			2) business/mission presentation
+			3) architecture plans
+			4) architecture drivers
+			5) scenario brainstorm
+			6) scenario consolidation
+			7) scenario prioritization
+		* whiteboard your architecture
