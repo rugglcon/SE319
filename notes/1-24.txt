@@ -1,0 +1,17 @@
+Architecture design process
+	* utility tree
+		* a way to record ASRs all in one place
+		* establishes priority of each ASR in terms of:
+			* impact on architecture
+			* business or mission value
+	* application overview
+		* create an overview of what your application will look like 
+			when it is complete
+		* determine what type of application you are building
+			* i.e. a mobile application, a rich client
+		* identity your deployment constraints
+		* identify import architecture
+		* decompose the functionalities of the system based on a specific
+			strategy
+			* based on entities: device, service, etc.
+			* based on common functionalities
