@@ -1,0 +1,5 @@
+Documenting Architecture
+* Uses for architecture documentation
+	* educate people about the system
+	* communicate the architecture with stakeholders
+	* basis for system analysis and construction
