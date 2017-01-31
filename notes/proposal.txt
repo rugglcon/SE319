@@ -1,6 +1,6 @@
-* one page
 * submit on blackboard
 * next Thursday
-* content
+* content (one page)
 	* goals
+	* users
 	* scope and main requirements
