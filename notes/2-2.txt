@@ -1,0 +1,11 @@
+Phase 1: Base Architecture - Feb. 9
+* scope and description of the system
+* requirements and method used to gather them (+lessons)
+* proposed architecture (components and views)
+* any useful information
+
+Reporting should be based on the documentation guidelines
+that we learned
+
+* What is UML?
+	* UML - "Unified Modeling Language"
