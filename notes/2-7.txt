@@ -1,0 +1,2 @@
+* Responsiblities assignment
+* collaboration between the components
